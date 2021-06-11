@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+body
+{
+  font-weight:bold;
+  min-height: 100vh;
+  
+}
+
+.modal{
+  background: none;
+}
+
+
+
+.navhead{
+  height:100px;
+}
+
+
+.btn
+{
+  /* background: rgba(250,250,250,0.1) !important; */
+  background:darkslategray !important;
+  color:white;
+  font-size:18px;
+  font-weight: bold; 
+  
+}
+
+.nav_ab{
+  width: 100%;
+  /* background: rgba(250,250,250,0.3) !important; */
+  /* background: white !important; */
+  /* top:0px; */
+  padding:0px 0px;
+  position:fixed;
+  z-index: 10 ;
+  height: auto !important;
+}
+
+a{
+  color:black!important;
+}
+
+.nav-item a
+{
+color:rgba(250,250,250,0.9)!important;
+font-weight: bold;
+font-size:18px;
+font-family: 'Cinzel Decorative', cursive;
+}
+.nav-item a.active
+{
+color:white !important;
+background-color:rgba(250,250,250,0.2) !important;
+
+}
+
+.brand-logo,h2{
+  font-family: 'Leckerli One', cursive;
+
+}
+
+.logo{
+
+  margin-left: 3%;
+  font-size: 30px;
+  font-family: 'Cinzel Decorative', cursive;
+  color:rgba(250,250,250,0.9) !important;
+}
+
+.auth-card{
+  padding:20px;
+  text-align:center;
+  
+  max-width:700px;
+  margin:20px auto;
+ 
+}
+
+.mycard{
+  margin-top:60px;
+}
+
+.input-field input{
+  color:white !important;
+ }
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(8,93,252) !important;
+  box-shadow: 0 1px 0 0 rgb(8,93,252) !important;
+   }
+
+   .input-field input[type=password]:focus {
+    border-bottom: 1px solid rgb(8,93,252) !important;
+    box-shadow: 0 1px 0 0 rgb(8,93,252) !important;
+     }
+
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  
+}
+
+ .home-card{
+    max-width:450px;
+    height:max-content;
+    margin:26px auto;
+    background-color:lightgray;
+    box-shadow: 0 0 50px;
+    }
+
+
+  #toast-container{
+    top:50px  !important;
+    left: 40%  !important;
+    max-width: 220px !important;
+    
+  }
+  
+  .card-image
+  {
+    width:100%;
+    display: flex;
+    height:400px;
+  }
+  
+ 
+
+  .li{
+    font-weight: bold;
+  }
+
+.card-content
+{
+  min-height:20px;
+  margin:0px;
+}
+
+::placeholder { 
+  color:white;
+  opacity:0.5; 
+}
+
+.modal ::placeholder{
+  color:black;
+  opacity:0.5;
+}
+.collection-item{
+  width:100%;
+}
